@@ -1,4 +1,4 @@
---DBS311 Assignment1
+--DBS311 Assignment1 
 --by Simon Lam
 
 --1) Display the employee number, full employee name, job title, and hire date of all employees hired in September, 
