@@ -34,7 +34,7 @@ HAVING COUNT(o.order_id)<3
 ORDER BY 3 ASC, 2 ASC;
 
 --4) Display customer Id, customer name, and the order id and the order date of all orders for customer whose ID is 44.
---a.	Show also the total number of items ordered and the total amount of each customer’s order.
+--a.	Show also the total number of items ordered and the total amount of each customerâ€™s order.
 --b.	Exclude Orders with the Total Amount exceeding 1 million dollars
 --c.	Sort the result from the highest to lowest total order amount.
 SELECT c.customer_id "Cust#", c.name "Name", o.order_id "Order Id", TO_CHAR(o.order_date, 'dd-MON-yy') "Order Dat", SUM(i.quantity) "Total Items", TO_CHAR(SUM(i.quantity*i.unit_price),'FM$999,999,999.99') "Total Amount"
