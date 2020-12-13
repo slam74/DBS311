@@ -1,10 +1,5 @@
 /*
 DBS311 Assignment 2
-Section NAA, Group #6
-Simon Lam, Student# 150595197
-Ze-Rang Wang, Student# 133223198
-Justin Mercer, Student# 113545180
-Hayeon Cho, Student# 121074199
 */
 
 #include <iostream>
